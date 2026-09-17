@@ -2,9 +2,9 @@
 
 ## Overview
 
-SauceDemo Selenium Automation is a web UI test automation project developed using **Python and Selenium WebDriver**. The project automates key functional scenarios of the SauceDemo e-commerce application and validates the complete user journey from login to successful order placement.
+SauceDemo Selenium Automation is a Web UI Test Automation project developed using **Python and Selenium WebDriver**. The project automates key functional scenarios of the SauceDemo e-commerce application and validates the complete user journey from login to successful order placement.
 
-This project demonstrates practical experience in **QA Automation, functional testing, Selenium WebDriver, Python, web element locators, explicit waits, assertions, and end-to-end test execution**.
+This project demonstrates practical knowledge of **QA Automation, Functional Testing, Selenium WebDriver, Python, Web Element Locators, Explicit Waits, Assertions, and End-to-End Test Execution**.
 
 ## Application Under Test
 
@@ -25,33 +25,39 @@ This project demonstrates practical experience in **QA Automation, functional te
 The following functional scenarios have been automated:
 
 ### 1. Login Testing
+
 - Launch the SauceDemo application.
 - Enter valid username and password.
 - Click the Login button.
 - Verify successful navigation to the Inventory page.
 
 ### 2. Inventory Testing
+
 - Verify the Inventory page is displayed.
 - Verify products are available.
 - Validate product listing after successful login.
 
 ### 3. Add to Cart Testing
+
 - Select a product from the Inventory page.
 - Click the Add to Cart button.
 - Verify that the product is successfully added to the cart.
 
 ### 4. Cart Testing
+
 - Open the Shopping Cart.
 - Verify the selected product is displayed.
 - Validate the cart product information.
 
 ### 5. Checkout Testing
+
 - Navigate to the Checkout page.
 - Verify the Checkout Information page.
 - Enter customer information.
 - Continue to the Order Overview page.
 
 ### 6. Order Placement Testing
+
 - Verify order information.
 - Click the Finish button.
 - Verify the order confirmation message.
@@ -100,13 +106,13 @@ Expected Conditions
 Element visibility validation
 Element clickability validation
 Text-based assertions
-End-to-end workflow automation
+End-to-End workflow automation
 
 Explicit waits are used to improve synchronization between the automation script and the web application.
 
 Test Credentials
 
-The SauceDemo public test account is used for automation:
+The SauceDemo public test account is used for automation.
 
 Username: standard_user
 Password: secret_sauce
@@ -115,7 +121,7 @@ Test Execution Results
 
 The implemented automation scenarios were executed successfully.
 
-Test Case	Result
+Test Scenario	Result
 Login Test	PASS
 Inventory Test	PASS
 Add to Cart Test	PASS
@@ -129,18 +135,17 @@ ADD TO CART TEST: PASS
 CART PRODUCT TEST: PASS
 CHECKOUT PAGE TEST: PASS
 ORDER PLACEMENT TEST: PASS
-Demo Video
+🎥 Automation Demo
 
-A demonstration of the Selenium automation execution is available here:
+## 🎥 Automation Demo
 
-Watch Selenium Automation Demo
+A video demonstration of the Selenium automation workflow is available below.
 
-The video demonstrates the automated SauceDemo workflow from login through successful order placement.
+[▶️ Watch Selenium Automation Demo](https://drive.google.com/file/d/185W4S5LRE3ETEDP6LUmlfBF5290aciJm/view?usp=sharing)
 
+The demonstration covers the automated SauceDemo workflow from login through successful order placement.
 Skills Demonstrated
-
 QA & Testing
-
 Functional Testing
 Manual Testing
 Test Case Design
@@ -148,48 +153,35 @@ Test Execution
 End-to-End Testing
 Validation
 Defect Identification
-
 Automation
-
 Selenium WebDriver
 Python
 Web Element Locators
 Explicit Waits
 Assertions
 Browser Automation
-
 Development Tools
-
 Visual Studio Code
 Git
 GitHub
-Chrome
+Google Chrome
 Installation
 
 Install Python 3.x and Google Chrome before running the project.
 
-Install Selenium using:
-
+Install Selenium
 pip install selenium
-
-Clone the repository:
-
+Clone the Repository
 git clone https://github.com/vahorahumerah/SauceDemo-Selenium-Automation.git
-
-Navigate to the project directory:
-
+Navigate to the Project Directory
 cd SauceDemo-Selenium-Automation
-
-Run an individual test:
-
+Run an Individual Test
 python login_test.py
-
-For example, to execute the complete order placement scenario:
-
+Run Order Placement Test
 python order_test.py
 Future Enhancements
 
-The current project can be further improved by implementing:
+The project can be further enhanced by implementing:
 
 Pytest test framework
 Page Object Model (POM)
@@ -203,7 +195,7 @@ Project Status
 
 Completed
 
-The project successfully demonstrates an end-to-end Selenium WebDriver automation workflow for the SauceDemo application.
+This project demonstrates an end-to-end Selenium WebDriver automation workflow for the SauceDemo application using Python.
 
 Author
 
